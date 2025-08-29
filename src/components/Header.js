@@ -8,15 +8,15 @@ function Header() {
   };
 
   return (
-    <header className="bg-blue-900 text-white shadow-lg fixed w-full top-0 z-50">
+    <header className="bg-blue-900 text-white shadow-lg">
       <nav className="container mx-auto px-4 py-3">
         <div className="flex justify-between items-center">
-          <div className="flex items-center">
+          {/* <div className="flex items-center">
             <img src="/image.png" alt="ICEECT Logo" className="h-12 mr-4" />
-          </div>
+          </div> */}
           
           {/* Desktop Menu */}
-          <div className="hidden md:flex space-x-6">
+          <div className="hidden md:flex space-x-6 w-full justify-end">
             <a href="#home" className="hover:text-blue-300 transition-colors">HOME</a>
             <a href="#about" className="hover:text-blue-300 transition-colors">ABOUT US</a>
             <a href="#call-for-papers" className="hover:text-blue-300 transition-colors">CALL FOR PAPERS</a>

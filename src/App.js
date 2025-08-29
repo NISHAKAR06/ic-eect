@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './components/Header';
+import TopBanner from './components/TopBanner';
 import Hero from './components/Hero';
 import About from './components/About';
 import CallForPapers from './components/CallForPapers';
@@ -15,6 +16,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
+      <TopBanner />
       <Header />
       <Hero />
       <About />
