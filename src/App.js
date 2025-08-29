@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './components/Header';
 import TopBanner from './components/TopBanner';
+import Carousel from './components/Carousel';
 import Hero from './components/Hero';
 import About from './components/About';
 import CallForPapers from './components/CallForPapers';
@@ -18,14 +19,15 @@ function App() {
     <div className="App">
       <TopBanner />
       <Header />
+      <Carousel />
       <Hero />
       <About />
-      <CallForPapers />
+      {/* <CallForPapers />
       <RegistrationDetails />
       <SubmitPaper />
       <Committee />
       <ForAuthors />
-      <Contact />
+      <Contact /> */}
       <ImportantDates />
       <SubTracks />
       <Footer />

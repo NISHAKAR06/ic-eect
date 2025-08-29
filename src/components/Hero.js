@@ -3,7 +3,7 @@ import React from 'react';
 function Hero() {
   return (
     <section id="home" className="relative h-screen flex items-center justify-center text-white overflow-hidden">
-      <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: 'url(https://via.placeholder.com/1920x1080?text=Hero+Background)' }}>
+      <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: 'url(/bg7.jpg)' }}>
         <div className="absolute inset-0 bg-black opacity-50"></div>
       </div>
       <div className="relative z-10 container mx-auto px-4 text-center">
