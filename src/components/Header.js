@@ -8,8 +8,8 @@ function Header() {
   };
 
   return (
-    <header className="bg-blue-900 text-white shadow-lg h-18">
-      <nav className="container mx-auto px-4 py-3">
+    <header className="bg-blue-950 text-white shadow-lg h-18">
+      <nav className="container mx-auto px-5 py-5">
         <div className="flex justify-between items-center">
           {/* <div className="flex items-center">
             <img src="/image.png" alt="ICEECT Logo" className="h-12 mr-4" />

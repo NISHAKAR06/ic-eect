@@ -15,3 +15,7 @@ body {
 .gradient-bg {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
+
+.filter-white {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(240deg) brightness(100%) contrast(100%);
+}

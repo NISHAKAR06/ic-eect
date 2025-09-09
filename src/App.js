@@ -4,12 +4,6 @@ import TopBanner from './components/TopBanner';
 import Carousel from './components/Carousel';
 import Hero from './components/Hero';
 import About from './components/About';
-import CallForPapers from './components/CallForPapers';
-import RegistrationDetails from './components/RegistrationDetails';
-import SubmitPaper from './components/SubmitPaper';
-import Committee from './components/Committee';
-import ForAuthors from './components/ForAuthors';
-import Contact from './components/Contact';
 import ImportantDates from './components/ImportantDates';
 import SubTracks from './components/SubTracks';
 import Footer from './components/Footer';
@@ -22,12 +16,6 @@ function App() {
       <Carousel />
       <Hero />
       <About />
-      {/* <CallForPapers />
-      <RegistrationDetails />
-      <SubmitPaper />
-      <Committee />
-      <ForAuthors />
-      <Contact /> */}
       <ImportantDates />
       <SubTracks />
       <Footer />
