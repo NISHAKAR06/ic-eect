@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -31,14 +32,14 @@ function Footer() {
           <div className='flex flex-col items-center'> {/* Centered content */}
             <h3 className="text-lg font-bold mb-4">USEFUL LINKS</h3>
             <div className="space-y-2 ">
-              <a href="#home" className="block text-sm text-blue-300 hover:text-white transition-colors">Home</a>
-              <a href="#about" className="block text-sm text-blue-300 hover:text-white transition-colors">About Us</a>
-              <a href="#call-for-papers" className="block text-sm text-blue-300 hover:text-white transition-colors">Call For Papers</a>
-              <a href="#registration-details" className="block text-sm text-blue-300 hover:text-white transition-colors">Registration Details</a>
-              <a href="#submit-paper" className="block text-sm text-blue-300 hover:text-white transition-colors">Submit your paper</a>
-              <a href="#committee" className="block text-sm text-blue-300 hover:text-white transition-colors">Check Paper Status</a>
-              <a href="#for-authors" className="block text-sm text-blue-300 hover:text-white transition-colors">Submission guidelines</a>
-              <a href="#contact" className="block text-sm text-blue-300 hover:text-white transition-colors">Contact</a>
+              <Link to="/" className="block text-sm text-blue-300 hover:text-white transition-colors">Home</Link>
+              <Link to="/about" className="block text-sm text-blue-300 hover:text-white transition-colors">About Us</Link>
+              <Link to="/call-for-papers" className="block text-sm text-blue-300 hover:text-white transition-colors">Call For Papers</Link>
+              <Link to="/registration-details" className="block text-sm text-blue-300 hover:text-white transition-colors">Registration Details</Link>
+              <Link to="/submit-paper" className="block text-sm text-blue-300 hover:text-white transition-colors">Submit your paper</Link>
+              <Link to="/committee" className="block text-sm text-blue-300 hover:text-white transition-colors">Committee</Link>
+              <Link to="/for-authors" className="block text-sm text-blue-300 hover:text-white transition-colors">For Authors</Link>
+              <Link to="/contact" className="block text-sm text-blue-300 hover:text-white transition-colors">Contact</Link>
             </div>
           </div>
 

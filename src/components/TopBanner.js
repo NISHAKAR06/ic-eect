@@ -11,9 +11,8 @@ function TopBanner() {
 
       {/* Center Section: SRI SHAKTHI text and address */}
       <div className="flex-grow text-center">
-        <h1 className="text-green-700 text-4xl font-bold">SRI SHAKTHI</h1>
-        <p className="text-gray-700 text-sm">INSTITUTE OF ENGINEERING AND TECHNOLOGY</p>
-        <p className="text-gray-600 text-xs">Approved by AICTE, New Delhi ■ Accredited by NBA ■ Affiliated to ANNA UNIVERSITY, Chennai</p>
+        <h1 className="text-green-700 text-4xl font-bold">SRI SHAKTHI INSTITUTE OF ENGINEERING AND TECHNOLOGY</h1>
+        <p className="text-gray-600 text-xs mt-3">Approved by AICTE, New Delhi ■ Accredited by NBA ■ Affiliated to ANNA UNIVERSITY, Chennai</p>
       </div>
 
       {/* Right Section: NAAC/NBA logos and Counseling Code */}

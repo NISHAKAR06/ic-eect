@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -17,14 +18,14 @@ function Header() {
           
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-6 w-full justify-end">
-            <a href="#home" className="hover:text-blue-300 transition-colors">HOME</a>
-            <a href="#about" className="hover:text-blue-300 transition-colors">ABOUT US</a>
-            <a href="#call-for-papers" className="hover:text-blue-300 transition-colors">CALL FOR PAPERS</a>
-            <a href="#registration-details" className="hover:text-blue-300 transition-colors">REGISTRATION DETAILS</a>
-            <a href="#submit-paper" className="hover:text-blue-300 transition-colors">SUBMIT YOUR PAPER</a>
-            <a href="#committee" className="hover:text-blue-300 transition-colors">COMMITTEE</a>
-            <a href="#for-authors" className="hover:text-blue-300 transition-colors">FOR AUTHORS</a>
-            <a href="#contact" className="hover:text-blue-300 transition-colors">CONTACT</a>
+            <Link to="/" className="hover:text-blue-300 transition-colors">HOME</Link>
+            <Link to="/about" className="hover:text-blue-300 transition-colors">ABOUT US</Link>
+            <Link to="/call-for-papers" className="hover:text-blue-300 transition-colors">CALL FOR PAPERS</Link>
+            <Link to="/registration-details" className="hover:text-blue-300 transition-colors">REGISTRATION DETAILS</Link>
+            <Link to="/submit-paper" className="hover:text-blue-300 transition-colors">SUBMIT YOUR PAPER</Link>
+            <Link to="/committee" className="hover:text-blue-300 transition-colors">COMMITTEE</Link>
+            <Link to="/for-authors" className="hover:text-blue-300 transition-colors">FOR AUTHORS</Link>
+            <Link to="/contact" className="hover:text-blue-300 transition-colors">CONTACT</Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -44,14 +45,14 @@ function Header() {
         {/* Mobile Menu */}
         <div className={`md:hidden ${isMenuOpen ? 'block' : 'hidden'} mt-4`}>
           <div className="flex flex-col space-y-2">
-            <a href="#home" className="hover:text-blue-300 transition-colors py-2">HOME</a>
-            <a href="#about" className="hover:text-blue-300 transition-colors py-2">ABOUT US</a>
-            <a href="#call-for-papers" className="hover:text-blue-300 transition-colors py-2">CALL FOR PAPERS</a>
-            <a href="#registration-details" className="hover:text-blue-300 transition-colors py-2">REGISTRATION DETAILS</a>
-            <a href="#submit-paper" className="hover:text-blue-300 transition-colors py-2">SUBMIT YOUR PAPER</a>
-            <a href="#committee" className="hover:text-blue-300 transition-colors py-2">COMMITTEE</a>
-            <a href="#for-authors" className="hover:text-blue-300 transition-colors py-2">FOR AUTHORS</a>
-            <a href="#contact" className="hover:text-blue-300 transition-colors py-2">CONTACT</a>
+            <Link to="/" className="hover:text-blue-300 transition-colors py-2" onClick={toggleMenu}>HOME</Link>
+            <Link to="/about" className="hover:text-blue-300 transition-colors py-2" onClick={toggleMenu}>ABOUT US</Link>
+            <Link to="/call-for-papers" className="hover:text-blue-300 transition-colors py-2" onClick={toggleMenu}>CALL FOR PAPERS</Link>
+            <Link to="/registration-details" className="hover:text-blue-300 transition-colors py-2" onClick={toggleMenu}>REGISTRATION DETAILS</Link>
+            <Link to="/submit-paper" className="hover:text-blue-300 transition-colors py-2" onClick={toggleMenu}>SUBMIT YOUR PAPER</Link>
+            <Link to="/committee" className="hover:text-blue-300 transition-colors py-2" onClick={toggleMenu}>COMMITTEE</Link>
+            <Link to="/for-authors" className="hover:text-blue-300 transition-colors py-2" onClick={toggleMenu}>FOR AUTHORS</Link>
+            <Link to="/contact" className="hover:text-blue-300 transition-colors py-2" onClick={toggleMenu}>CONTACT</Link>
           </div>
         </div>
       </nav>
